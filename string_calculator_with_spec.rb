@@ -146,5 +146,4 @@ class StringCalculatorTests < Test::Unit::TestCase
 		result=	calc.add("//[AB][bc]\n1AB2bc3")
 		assert_equal 6,result
 	end
-
 end
